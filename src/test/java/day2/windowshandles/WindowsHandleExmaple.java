@@ -34,6 +34,10 @@ public class WindowsHandleExmaple {
 
         System.out.println(email);
 
+        webDriver.switchTo().window(parentId);
+
+        webDriver.findElement(By.id("username")).sendKeys(email);
+
 
     }
 }
