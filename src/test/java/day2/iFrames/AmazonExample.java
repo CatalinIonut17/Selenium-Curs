@@ -30,7 +30,7 @@ public class AmazonExample {
         a.moveToElement(searchBox)
                 .click()
                 .keyDown(Keys.SHIFT)
-                .sendKeys("hello")
+                .sendKeys("memory")
                 .doubleClick()
                 .build()
                 .perform();
